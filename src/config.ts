@@ -140,7 +140,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "home",
+					name: "Home",
 					icon: "material-symbols:home-rounded",
 					external: true,
 					url: "https://home.muyulov.top"
@@ -259,7 +259,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 export const commentConfig: CommentConfig = {
 	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "http://api.muyulov.top:8120/",
+		envId: "https:/twikoo.muyulov.top",
 	},
 };
 
