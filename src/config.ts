@@ -31,7 +31,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 	translate: {
-		enable: false, // 启用翻译功能
+		enable: true, // 启用翻译功能
 		service: "client.edge", // 使用 Edge 浏览器翻译服务
 		defaultLanguage: getTranslateLanguageFromConfig(SITE_LANG), // 根据站点语言自动设置默认翻译语言
 		showSelectTag: false, // 不显示默认语言选择下拉菜单，使用自定义按钮
@@ -265,7 +265,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎来到我的博客！祝你能在我这学到一些新知识！小房子图标可以返回HOME站哦。【本站使用Meting-API作为音乐播放歌单获取（歌单id：2754499818）】", // 公告内容
+	content: "欢迎来到我的博客！祝你能在我这学到一些新知识！小房子图标可以返回HOME站哦。【本站使用Meting-API作为音乐播放歌单获取（歌单id：2754499818）。访问本站的小部分服务需要拥有ipv6。】", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
