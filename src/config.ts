@@ -259,13 +259,13 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 export const commentConfig: CommentConfig = {
 	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https:/twikoo.muyulov.top",
+		envId: "https://twikoo.muyulov.top",
 	},
 };
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎来到我的博客！祝你能在我这学到一些新知识！小房子图表可以返回HOME站哦。【本站使用Meting-API作为音乐播放歌单获取（歌单id：2754499818）】", // 公告内容
+	content: "欢迎来到我的博客！祝你能在我这学到一些新知识！小房子图标可以返回HOME站哦。【本站使用Meting-API作为音乐播放歌单获取（歌单id：2754499818）】", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
