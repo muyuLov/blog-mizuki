@@ -28,7 +28,7 @@ export const timelineData: TimelineItem[] = [
 		id: "first-project-plan",
 		title: "学习期间的项目练习",
 		description: "学习过程中，完成一个基于Spring Boot 和 Spring Ai 的Ai聊天 + 记忆项目的开发。",
-		type: "education",
+		type: "project",
 		startDate: "2025-8",
 		skills: ["java SE", "spring Boot", "speing Ai"],
 		achievements: [
@@ -41,7 +41,7 @@ export const timelineData: TimelineItem[] = [
 		id: "subsequent-learningOf-the-programming-language-of-interest",
 		title: "后续对感兴趣的编程语言的学习情况",
 		description: "零零散散的学了十几种编程语言和计算机相关的知识，收获不少。但拿得出手的可以说没有，决定在2025的暑假专精于Java SE的基础学习。",
-		type: "education",
+		type: "achievement",
 		startDate: "2025-7",
 		skills: ["十几种编程语言和计算机知识"],
 		achievements: [
